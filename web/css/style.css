@@ -1,4 +1,13 @@
-*  {cursor: default}
+
+	* {
+	padding: 0;
+	margin: 0;
+	transition: all 0.1s ease-in;
+	cursor: default
+}
+html {
+	height: 100%;
+}
 .box_1 {
 	margin:0 0 0 0;
 	max-width: 1480px;
@@ -31,7 +40,7 @@
 	margin: 0  auto ;
 	z-index: 2;
 	position: relative;
-	top: -770px;
+	top: -740px;
 
 
 }
@@ -180,6 +189,7 @@ margin-right: 60px;
 	background-color:  #25b86a;
 	margin-left: 0px;
 	margin-top: 20px;
+	cursor: pointer;
 }
 b {
 	font-family: Montserrat;
@@ -187,6 +197,7 @@ b {
 	font-size: 20px;/* Приближение из-за подстановки шрифтов */
 	font-weight: 700;
 	text-align: left;
+	cursor: pointer;
 }
 .last1_text {
 	font-family: Montserrat;
@@ -195,5 +206,8 @@ b {
 	font-weight: 400;
 	text-align: unset;
 	margin-left: 100px;
+	cursor: pointer;
+	border: none;
+	background-color: white;
 
 }
