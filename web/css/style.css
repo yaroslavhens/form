@@ -5,12 +5,18 @@
 	transition: all 0.1s ease-in;
 	cursor: default
 }
+body {
+	height: 300px;
+	background-image:  url(../img/fon.png) ;
+	background-repeat: no-repeat;
+     background-size: cover;
+	
+}
 .box_1 {
 	margin:0 0 0 0;
-	max-width: 1480px;
-	height: 800px;
-	background-color: #22262a;
-	background-image: url(../img/f2on2.png); 
+	max-width: 1280px;
+	height: 600px;
+
   	background-repeat: no-repeat;
   	background-position: right ;
 	background-size: auto;
@@ -21,8 +27,9 @@
 .img1 {
 	float: right;
 	z-index: 1;
-	left: 717px;
-	height: 100%
+	opacity: 0.2;
+	height:800px;
+	
 }
 .hea1 {
 	width: 100%;
